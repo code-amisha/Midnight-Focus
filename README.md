@@ -22,6 +22,7 @@ This project is currently under development and new features are being added reg
 * CSS
 * JavaScript
 
+
 ## Goal
 
 The goal of Midnight Focus is to provide a simple and distraction-free environment for studying, working, and maintaining focus.
