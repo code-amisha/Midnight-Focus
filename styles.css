@@ -337,3 +337,63 @@ background-position: center;
     color: white;
     font-weight: bold;
 }
+.task-list {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.checked {
+    background: #8b5cf6;
+    border-color: #8b5cf6;
+    color: white;
+}
+
+.completed .text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.time {
+    color: #777;
+    font-size: 14px;
+}
+.menu-btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+    padding: 0;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+}
